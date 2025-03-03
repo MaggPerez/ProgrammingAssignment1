@@ -67,8 +67,6 @@ void userMemoryAllocation(int array[], int size){
 }
 
 int main(){
-    printf("Hello World\n");
-
     int elements[100];
     int size = sizeof(elements) / sizeof(elements[0]);
 
