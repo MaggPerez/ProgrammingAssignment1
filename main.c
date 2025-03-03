@@ -50,7 +50,7 @@ void userMemoryAllocation(int array[], int size){
         printf("Process Id %d\n:", process_number);
         printf("Starting Memory Address: %d\n", starting_address);
         printf("Size of the Process MB: %d\n", processSize);
-        printf("Unused Memory Space MG: %d\n", unused_memory);
+        printf("Unused Space MG: %d\n", unused_memory);
 
         //Updating starting address for the next process
         starting_address += allocated_memory;
